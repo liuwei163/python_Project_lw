@@ -9,10 +9,7 @@ print(123)
 打印输出456
 打印输出789
 """
-print(456)
-print(789)
-print(456)
-print(789)
-print(456)
-print(789)
+
+print(222)
+print(111)
 # 3.批量单行注释的快捷键 ctrl + /
