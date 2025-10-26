@@ -8,10 +8,14 @@ s = "python是世界上最好的编程语言"
     # python的字符串索引是可以从右向左计算的
     print(s[-1])
     print(s[-3])
+
+s = "刘伟666"
+print(s[1], s[0]) #先输出伟 再输出刘
 '''
 
 
 """ # 切片
+
     切片的规则 [start: end]
         从start位置开始取，但是最后的end是取不到的
         print(s[1: 4])  # 得到 yth

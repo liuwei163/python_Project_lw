@@ -5,8 +5,8 @@
 
 # 切片使用冒号:
 lst = ["刘妍", "刘伟", "杨妍", "杨伟"]
-# print(lst[-3:-1])
-# print(lst[::-1])
-# print(lst[::1])
+print(lst[-3:-1])
+print(lst[::-1])
+print(lst[::1])
 
 print(lst[-3:-4])
