@@ -6,7 +6,7 @@
 # str.replace(old,new)               返回字符串str的副本，所有old子串被替换为new
 # str.center(width,fillchar)         字符串居中函数，fillchar参数可选
 # str.strip(chars)                   从字符串str中去掉在其左侧和右侧chars中列出的字符
-# strjoin(iter)                      将iter变量的每一个元素后面（元素和元素中间）增加一个str字符串
+# str.join(iter)                     将iter变量的每一个元素后面（元素和元素中间）增加一个str字符串
 
 # str.lower()
 s = "aBcDeFg"
@@ -40,5 +40,15 @@ s = "67666小黑66676"
 print(s.strip("6"))
 
 # str.join(iter)
+# 将 s 变量的每一个元素和元素中间加一个 + 号
 s = "小黑小白绿蓝红"
 print("+".join(s))
+
+#################################################################################
+# 方法                                       描述
+# str.isalpha()                             检查字符串是否只包含字母字符
+# 如果字符串中的所有字符都是字母（a-z, A-Z），返回 True
+# 如果字符串包含任何非字母字符（数字、空格、标点等），返回 False
+# 对于空字符串，返回 False
+print('acd'.isalpha())
+
