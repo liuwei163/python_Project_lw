@@ -19,3 +19,5 @@ s = "jhjkh"
 s1 = "4542"
 print(s+s1)
 print(s * 2)
+
+
