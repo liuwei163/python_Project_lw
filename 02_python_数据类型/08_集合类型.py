@@ -3,7 +3,7 @@
 # 定义空集合必须使用 set()函数
 """
     s = {1, 3, 5, 7}
-    s1 = {}
+    s1 = {}           # 这是字典类型
     s2 = set()
     print(type(s))    # <class 'set'>
     print(type(s1))   # <class 'dict'>  直接使用   变量 = {}  的数据类型是字典类型，不是集合类型
