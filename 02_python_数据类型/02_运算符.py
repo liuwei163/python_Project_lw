@@ -94,9 +94,27 @@ print(a is not None)  # 判断变量a不是空 (返回false)
 # a = a + 1  "和"  a += 1  是一样的效果
 # a += b   "和"  a = a + b 是一样的
 
-""" and和or 的逻辑
+"""
+四、逻辑运算符：用于检测两个或者两个以上的条件是否满足
+and        逻辑"与"        
+or         逻辑"或"
+not        逻辑"非"
+
+    age = 18
+    name = "刘伟"
+    # and
+    print(age == 18 and name == "刘伟")  # and左右两边都为真，则返回True
+    print(age == 20 and name == "刘伟")  # and左右两边有一侧为假，则返回False
+    
+    # or
+    print(age == 20 or name == "刘伟")  # or 左右两边只要有一侧为真，则返回True
+    
+    # not 取反结果
+    print(not age == 18 and name == "刘伟")
+
 如果遇到不同的运算符组合.需要注意,计算优先级顺序如下：
 () => not => and => or
+
 # print(1 > 2 and 2 > 4 or 3 < 6 or 4 < 7 and 5 > 8)   # 结果 T
 # print(not 2 > 1 and 3 < 4 or 4 > 5 and 2 > 1 and 9 > 8 or 7 < 6) # 结果 F
         # 0可以表示假
