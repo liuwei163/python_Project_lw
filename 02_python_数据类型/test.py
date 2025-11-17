@@ -1,11 +1,7 @@
-# 通过eval函数确认用户输入的值是否是数字，如果是字符串则报错。
-n = eval(input("请输入分数："))
-
-if n >= 60:
-    print("成绩合格，考试通过")
+number = 1
+while number <= 10:
+    print(number, "abc")  # 运行循环的内容
+    # 循环一次以后给number变量加1(改变循环变量)
+    number = number + 1
 else:
-    print("成绩不合格，未通过考试")
-
-print("您的分数是:", n)
-
-
+    print("循环正常结束")

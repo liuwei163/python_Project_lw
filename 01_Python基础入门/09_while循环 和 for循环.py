@@ -2,6 +2,8 @@
 # 做固定循环次数的时候使用 for 循环
 
 """ while
+判断条件若为True，执行循环体语句，，语句结束后返回再次判断条件，直到条件为False时，循环终止，执行与while同级别的后续语句。
+
 语法规则:
     while 条件:
         当条件为真,执行此代码
@@ -99,3 +101,32 @@ for i in d:
 # for 和 range() 函数使用
 for i in range(5):   # range()函数是从0 开始
     print(i)
+
+######################################################################
+# for循环的扩展模式
+# 当for循环正常执行之后，程序会继续执行else语句中内容，else语句只在循环正常执行之后才执行并结束。
+
+"""
+for 变量名 in 集合:
+    <语句块1>
+else:
+    <语句块2>
+"""
+for i in range(1, 6):
+    if i == 3:
+        print("第三个有毒")
+        break
+    print("第{}个鸡腿真香".format(i))
+
+else:
+    print("NICE")
+
+# while循环的扩展模式
+# 当while循环正常执行之后，程序会继续执行else语句中内容，else语句只在循环正常执行之后才执行并结束。
+number = 1
+while number <= 10:
+    print(number, "abc")  # 运行循环的内容
+    # 循环一次以后给number变量加1(改变循环变量)
+    number = number + 1
+else:
+    print("循环正常结束")
