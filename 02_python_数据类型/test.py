@@ -1,7 +1,10 @@
-number = 1
-while number <= 10:
-    print(number, "abc")  # 运行循环的内容
-    # 循环一次以后给number变量加1(改变循环变量)
-    number = number + 1
-else:
-    print("循环正常结束")
+try:
+    # n = eval(input("请输入一个数字："))
+    # print(n ** 5)
+    print(2/1)
+# except NameError:
+#     print("请输入数字，不要输入其他内容！")
+except ZeroDivisionError:
+    print("除零错误！！！")
+finally:
+    print("不管是否正常，都会执行。")
