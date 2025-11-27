@@ -32,7 +32,7 @@ ls.reverse()                                    列表ls中元素反转
 ls.copy()                                       生成一个新列表，复制ls中所有元素
 """
 
-# ls.append(x) 列表最后添加一个元素x
+# ls.append(x) 在列表最后添加一个元素x
 ls = ["刘伟", 20, "张三", 30, "李四"]
 ls.append("小白")
 print(ls)
@@ -46,7 +46,7 @@ print(ls)
     # ls.clear(ls)
     # print(ls)
 
-# ls.pop(index) 将列表ls中第index项元素取出并删除该元素
+# ls.pop(index) 将列表ls中第index项元素取出并删除该元素（取出表示打印出来）
 print(ls.pop(1))  # 删除小粉,print函数输出删除的具体元素
 print(ls)         # 没有小粉了
 
