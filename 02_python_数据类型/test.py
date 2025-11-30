@@ -1,7 +1,8 @@
-def mul(*x):
-    print(x)
+def add(x, y):
+    s = x + y
+    print(s)
+    return s
 
 
-# 可变长度传参
-mul(1, 2, 5, 3)
-
+n = add(1, 9)
+print(n)
