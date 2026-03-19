@@ -33,15 +33,15 @@ sum([1,4,5,8])
 18
 
 # reversed()函数使用：
-reversed([1, 2, 3, 4, 5, 6])
-< list_reverseiterator object at 0x0000013640B4B940 >
-# 通过打印变量i 来查看reversed()函数排序
-for i in reversed([1, 2, 3, 4, 5, 6]):
-    print(i)
-
-6
-5
-4
-3
-2
-1
+    # reversed([1, 2, 3, 4, 5, 6])
+    # < list_reverseiterator object at 0x0000013640B4B940 >
+    # # 通过打印变量i 来查看reversed()函数排序
+    # for i in reversed([1, 2, 3, 4, 5, 6]):
+    #     print(i)
+    #
+    # 6
+    # 5
+    # 4
+    # 3
+    # 2
+    # 1

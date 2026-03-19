@@ -11,7 +11,7 @@ filing()                     返回填充状态，True为填充
 clear()                      清空当前窗口
 """
 
-# pendown()和 penup()
+## pendown()和 penup()
 import turtle
 # 拿起画笔
 turtle.up()
@@ -21,7 +21,7 @@ turtle.fd(200)
 
 turtle.done()
 
-# pensize()
+## pensize()
 import turtle
 
 turtle.pensize(5)
@@ -29,7 +29,7 @@ turtle.fd(200)
 
 turtle.done()
 
-# pencolor()
+## pencolor()
 import turtle
 
 turtle.pencolor("red")
@@ -37,7 +37,7 @@ turtle.fd(200)
 
 turtle.done()
 
-# color(); begin_fi(); end fill(); turtle.filling(); clear()
+## color(); begin_fi(); end fill(); turtle.filling(); clear()
 import turtle
 
 # color("")：1.设置画笔颜色，2.设置填充颜色
@@ -67,10 +67,10 @@ write(str,font=None)            输出font字体的字符串
 screensize()                    设置画布的长和宽
 hideturtle()                    隐藏画笔的turtle形状
 showturtle                      显示画笔形状
-Isvisible()                     如果画笔可见则显示true
+isvisible()                     如果画笔可见则显示true
 """
 
-# reset()
+## reset()
 import turtle
 
 # color("")：1.设置画笔颜色，2.设置填充颜色
@@ -78,5 +78,25 @@ turtle.color("blue")
 turtle.fd(300)
 # 清空窗口,并重置画笔位置
 turtle.reset()
+
+turtle.done()
+
+## write(str,font=None)：输出font字体的字符串，screensize()：设置画布的长和宽
+import turtle
+
+turtle.write("liuwei")
+turtle.screensize(1000, 1000)
+
+turtle.done()
+
+## hideturtle()：隐藏画笔；showturtle()：显示画笔
+## isvisible()
+import turtle
+
+turtle.hideturtle()  # 隐藏画笔
+turtle.fd(100)
+# turtle.showturtle()  # 显示画笔
+
+print(turtle.isvisible())  # 画笔可见即打印True；不可见即打印False
 
 turtle.done()

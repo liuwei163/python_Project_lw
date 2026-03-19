@@ -1,9 +1,4 @@
-import turtle
-
-# color("")：1.设置画笔颜色，2.设置填充颜色
-turtle.color("blue")
-turtle.fd(300)
-# 清空窗口,并重置画笔位置
-turtle.write("liuwei")
-
-turtle.done()
+import random
+n = random.randint(1, 200)
+print(n)
+# 设置了seed，那最后的随机数就是固定的
