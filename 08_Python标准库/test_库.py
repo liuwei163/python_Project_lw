@@ -1,4 +1,4 @@
 import random
-n = random.randint(1, 200)
+ls = ["赵六", "王五", "李四", "张三"]
+n = random.sample(ls, 3)
 print(n)
-# 设置了seed，那最后的随机数就是固定的

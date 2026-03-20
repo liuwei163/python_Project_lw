@@ -29,3 +29,38 @@ import random
 n = random.randint(1, 200)
 print(n)
 
+## getrandbits()
+import random
+
+n = random.getrandbits(4)
+print(n)
+
+## randrange()
+import random
+
+n = random.randrange(1, 10, 2)
+print(n)
+
+## uniform(a, b),生成a 到 b 之间的随机小数
+import random
+
+n = random.uniform(1, 3)
+print(n)
+
+## choice(seq)
+import random
+
+n = random.choice(["赵六", "王五", "李四", "张三"])
+print(n)
+
+## shuffle(seq)
+import random
+ls = ["赵六", "王五", "李四", "张三"]
+random.shuffle(ls)
+print(ls)
+
+## sample(pop, k)
+import random
+ls = ["赵六", "王五", "李四", "张三"]
+n = random.sample(ls, 3)
+print(n)
