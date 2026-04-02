@@ -28,7 +28,7 @@ print(time.localtime())
 print(time.ctime())
 # 输出结果：Thu Mar 26 16:11:02 2026
 
-# 格式化输出函数
+## 格式化输出函数 , time.strftime、time.strptime
 import time
 t = time.localtime()
 
@@ -37,3 +37,14 @@ print(time.ctime(time.mktime(t)))
 
 # 将时间按照自己定义的格式输出出来。
 print(time.strftime("%Y-%m-%d %H:%M:%S", t))
+
+# 根据时间提取出 时间对象
+import time
+s = "2026-4-2 16:00:05"
+n = time.strptime(s, "%Y-%m-%d %H:%M:%S")
+print(n)
+
+## 计时，睡眠
+import time
+time.sleep(3)
+print("liuwei")
