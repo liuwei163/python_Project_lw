@@ -1,0 +1,10 @@
+Python第三方库依照安装方式灵活性和难易程度有三个方法:
+    pip工具安装、自定义安装和文件安装。pip工具安装:
+最常用且最高效的Python第三方库安装方式是采用pip工具安装。
+pip是Python官方提供并维护的在线第三方库安装工具。
+
+在windows的命令行窗口执行
+# 安装指定的库
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple 库名
+# 卸载指定的库
+pip3 uninstall  库名

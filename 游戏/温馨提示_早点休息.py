@@ -3,6 +3,8 @@ import random
 import threading
 import time
 
+# 打包一个程序（游戏目录可以实操）
+# pyinstaller -F -i 温馨提示.ico  温馨提示_早点休息.py
 
 def show_warm_tip():
     # 创建窗口
